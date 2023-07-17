@@ -5,6 +5,7 @@ import java.util.List;
 
 public class StringUtils {
     public static final Character DELIMITER_WHITESPACE = ' ';
+    public static final List<Character> VOWEL_CHARACTERS = Arrays.asList('a', 'o', 'e', 'i', 'u');
 
     public static List<String> splitSentence2Words(String sentence, char delimiter) {
         return Arrays.asList(sentence.split(String.valueOf(delimiter)));
@@ -43,5 +44,21 @@ public class StringUtils {
         // h e l l o  -> o l l e h
         var wordBuilder = new StringBuilder(word);
         return wordBuilder.reverse().toString();
+    }
+
+    public static Boolean isVowel(Character c) {
+        return StringUtils.VOWEL_CHARACTERS.contains(Character.toLowerCase(c));
+    }
+
+    public static Boolean isConsonant(Character c) {
+        if (Character.isLetter(c)) {
+            if (StringUtils.isVowel(c)) {
+                return false;
+            } else {
+                return true;
+            }
+        } else {
+            return false;
+        }
     }
 }

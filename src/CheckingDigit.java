@@ -17,6 +17,8 @@ public class CheckingDigit {
         //        .mapToObj(c -> (char)c)
         //        .anyMatch(c -> Character.isDigit(c)==false);
 
+        //TODO: refine by using match?
+
         boolean nonDigit = input.chars().anyMatch(value -> !Character.isDigit(value));
         return !nonDigit;
     }
