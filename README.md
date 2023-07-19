@@ -19,3 +19,5 @@ List up of problem-solution:
    Solution files: String2NumConverter, String2NumConverterTest
 8. Removing white spaces from a string
    Solution files: RemovingSpaces, RemovingSpacesTest
+9. Joining multiple strings with a delimiter
+   Solution files: JoiningStrings, JoiningStringsTest
