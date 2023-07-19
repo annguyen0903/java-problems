@@ -17,3 +17,5 @@ List up of problem-solution:
    Solution files: CharacterCounter, CharacterCounterTest
 7. Converting String into int, long, float, or double
    Solution files: String2NumConverter, String2NumConverterTest
+8. Removing white spaces from a string
+   Solution files: RemovingSpaces, RemovingSpacesTest
