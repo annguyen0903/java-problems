@@ -21,3 +21,5 @@
    *Solution files: RemovingSpaces, RemovingSpacesTest*
 9. Joining multiple strings with a delimiter  
    *Solution files: JoiningStrings, JoiningStringsTest*
+10. Generating all permutations of a given string  
+   *Solution files: StringPermutation, StringPermutationTest*
