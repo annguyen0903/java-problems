@@ -1,7 +1,7 @@
 package src;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class StringPermutation {
     private String input;
@@ -19,8 +19,8 @@ public class StringPermutation {
     }
 
     // abc -> abc, acb, bac, bca, cab, cba
-    private List<String> generatePermutation(String text){
-        var results = new ArrayList<String>();
+    private Set<String> generatePermutation(String text){
+        var results = new HashSet<String>();
         if(text.length() == 0) {
             return results;//empty
         }
@@ -30,8 +30,10 @@ public class StringPermutation {
         }
         if(text.length() == 2) {
             results.add(text);
-            results.add(String.valueOf(text.charAt(1)) + 
-                String.valueOf(text.charAt(0)));
+            String text2 = String.valueOf(text.charAt(1)) + 
+                String.valueOf(text.charAt(0));
+            //ignore dupplicate
+            if(!text.equals(text2)) results.add(text2);
             return results;//2 permutations
         }
         //text lenght >= 3 characters
@@ -52,8 +54,8 @@ public class StringPermutation {
             }
             //System.out.println("Substring of " + text + " is " + subText);
             var subPermutions = generatePermutation(subText);
-            for (String subPer : subPermutions) {
-                results.add(curChar + subPer);
+            for (String subPerm : subPermutions) {
+                results.add(curChar + subPerm);
             }
         }
         return results;
