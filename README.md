@@ -23,3 +23,5 @@
    *Solution files: JoiningStrings, JoiningStringsTest*
 10. Generating all permutations of a given string  
    *Solution files: StringPermutation, StringPermutationTest*
+11. Checking whether a string is a palindrome  
+   *Solution files: PalindromeChecking, PalindromeCheckingTest*
