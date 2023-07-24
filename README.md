@@ -25,3 +25,5 @@
    *Solution files: StringPermutation, StringPermutationTest*
 11. Checking whether a string is a palindrome  
    *Solution files: PalindromeChecking, PalindromeCheckingTest*
+12. Removing duplicate characters  
+   *Solution files: RemovingDupplicate, RemovingDupplicateTest*
