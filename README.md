@@ -29,3 +29,7 @@
    *Solution files: RemovingDupplicate, RemovingDupplicateTest*
 13. Removing given characters  
    *Solution files: RemovingChars, RemovingCharsTest*
+14. Finding the character with the most appearances  
+   *Solution files: MostAppearCharacter, MostAppearCharacterTest*
+15. Sorting an array of strings by length  
+   *Solution files: SortingArrayStrings, SortingArrayStringsTest*
