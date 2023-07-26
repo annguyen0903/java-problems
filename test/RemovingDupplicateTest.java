@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import src.RemovingDupplicate;
+
 public class RemovingDupplicateTest {
     @Test
     public void testDupplicate() {

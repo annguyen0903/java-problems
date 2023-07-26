@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
+import src.PalindromeChecking;
+
 public class PalindromeCheckingTest {
     @Test
     public void testTruePalindrome() {

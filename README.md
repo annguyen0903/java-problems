@@ -27,3 +27,5 @@
    *Solution files: PalindromeChecking, PalindromeCheckingTest*
 12. Removing duplicate characters  
    *Solution files: RemovingDupplicate, RemovingDupplicateTest*
+13. Removing given characters  
+   *Solution files: RemovingChars, RemovingCharsTest*
