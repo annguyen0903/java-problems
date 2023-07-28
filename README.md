@@ -3,6 +3,7 @@
 
 ### List up of problem-solution:
 
+#### Chapter 1: Strings, Numbers, and Math
 1. Counting duplicate characters  
    *Solution files: NA*
 2. Finding the first non-repeatsed character  
@@ -34,4 +35,13 @@
 15. Sorting an array of strings by length  
    *Solution files: SortingArrayStrings, SortingArrayStringsTest*
 16. Checking that a string contains a substring  
-   *Solution files: StringContainer StringContainerTest*
+   *Solution files: StringContainer StringContainerTest*  
+   ...
+
+#### Chapter 2: Objects, Immutability, and Switch Expressions
+
+40. Checking null references in functional style and imperative code:  
+   *NullChecking*
+41. Checking null references and throwing a customized
+NullPointerException error:  
+   *NullCheckingV2*
