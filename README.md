@@ -33,3 +33,5 @@
    *Solution files: MostAppearCharacter, MostAppearCharacterTest*
 15. Sorting an array of strings by length  
    *Solution files: SortingArrayStrings, SortingArrayStringsTest*
+16. Checking that a string contains a substring  
+   *Solution files: StringContainer StringContainerTest*
