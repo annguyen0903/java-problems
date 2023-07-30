@@ -45,3 +45,6 @@
 41. Checking null references and throwing a customized
 NullPointerException error:  
    *NullCheckingV2*
+42. Checking null references and throwing the
+specified exception  
+   *NullCheckingV3*
