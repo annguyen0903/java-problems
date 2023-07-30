@@ -3,17 +3,12 @@ package src;
 import java.util.Objects;
 
 public class NullCheckingV3 {
-    private final String name;
-    private final String color;
-    private Object location;
-    private String license;
-
     // In constructors, there is a typical approach to throw NullPointerException
     // when
     // the references provided are null.
     public NullCheckingV3(String name, String color) {
-        this.name = Objects.requireNonNull(name, "Name must not be null");
-        this.color = Objects.requireNonNull(color, "Color must not be null");
+        Objects.requireNonNull(name, "Name must not be null");
+        Objects.requireNonNull(color, "Color must not be null");
     }
 
     // In methods some developers will prefer to return an inoffensive
@@ -28,8 +23,8 @@ public class NullCheckingV3 {
         // this.location = MyObjects.requireNonNullElseThrowsIAE(location, "Location
         // cannot be null");
 
-        this.license = MyObjects.requireNonNullElseThrows(license, new IllegalArgumentException());
-        this.location = MyObjects.requireNonNullElseThrows(location, new IllegalArgumentException("cannot be null"));
+        MyObjects.requireNonNullElseThrows(license, new IllegalArgumentException());
+        MyObjects.requireNonNullElseThrows(location, new IllegalArgumentException("cannot be null"));
     }
 }
 
