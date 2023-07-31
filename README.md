@@ -51,3 +51,7 @@ specified exception
 43. Checking null references and returning non-null default
 references  
    *NullCheckingV4 NullCheckingTest*
+44. Checking the index in the range from 0 to length  
+   *IndexChecker IndexCheckerTester*
+45. Checking the subrange in the range from 0 to length  
+   *IndexCheckerV2 IndexCheckerTester*
