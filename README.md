@@ -55,3 +55,5 @@ references
    *IndexChecker IndexCheckerTester*
 45. Checking the subrange in the range from 0 to length  
    *IndexCheckerV2 IndexCheckerTester*
+46. equals() and hashCode()  
+   *Employee EmployeeTest*
