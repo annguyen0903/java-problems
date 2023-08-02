@@ -57,3 +57,7 @@ references
    *IndexCheckerV2 IndexCheckerTester*
 46. equals() and hashCode()  
    *Employee EmployeeTest*
+47. Immutable objects in a nutshell  
+48. Immutable string  
+49. Writing an immutable class  
+   *ImmutableClazz ImmutableClazzTest*
