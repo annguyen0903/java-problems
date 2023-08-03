@@ -61,3 +61,5 @@ references
 48. Immutable string  
 49. Writing an immutable class  
    *ImmutableClazz ImmutableClazzTest*
+50. Passing/returning mutable objects to/from an immutable class  
+   *ImmutableClazz MutableClazz ImmutableClazzTest*

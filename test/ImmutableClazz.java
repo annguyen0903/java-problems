@@ -1,8 +1,9 @@
 package test;
 
 public final class ImmutableClazz {
-    public ImmutableClazz(String data) {
+    public ImmutableClazz(String data, MutableClazz mutableData) {
         this.data = data;
+        this.mutableData = mutableData.clone();
     }
 
     public String getData(){
@@ -14,4 +15,9 @@ public final class ImmutableClazz {
     // }
 
     private final String data;
+    private final MutableClazz mutableData;
+
+    public MutableClazz getMutableData() {
+        return mutableData.clone();
+    }
 }
