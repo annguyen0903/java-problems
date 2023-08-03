@@ -63,3 +63,5 @@ references
    *ImmutableClazz ImmutableClazzTest*
 50. Passing/returning mutable objects to/from an immutable class  
    *ImmutableClazz MutableClazz ImmutableClazzTest*
+51. Writing an immutable class via the Builder pattern  
+   *User ImmutableBuilderTest*
