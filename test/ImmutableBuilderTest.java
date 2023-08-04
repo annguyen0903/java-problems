@@ -17,5 +17,9 @@ public class ImmutableBuilderTest {
             .address("Quan Hoa, Cau Giay, HN")
             .build();
         System.out.println(userHuyen.toString());
+
+        var strBuilder = new StringBuilder();
+        strBuilder.append("helo").append(4).append(true).toString();
+        //TODO: Investigate builder pattern in Java
     }
 }

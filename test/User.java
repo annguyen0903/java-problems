@@ -1,6 +1,6 @@
 package test;
 
-public class User {
+public final class User {
     private final String firstName;
     private final String lastName;
     private final String middleName;
@@ -24,7 +24,7 @@ public class User {
         return userInfo;
     }
 
-    public static class UserBuilder {
+    public static final class UserBuilder {
         private String firstName;
         private String lastName;
         private String middleName;

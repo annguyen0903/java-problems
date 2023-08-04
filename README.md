@@ -65,3 +65,7 @@ references
    *ImmutableClazz MutableClazz ImmutableClazzTest*
 51. Writing an immutable class via the Builder pattern  
    *User ImmutableBuilderTest*
+52. Avoiding bad data in immutable objects  
+   *NA*
+53. Cloning objects
+   *Car CarEngine CarTest*
