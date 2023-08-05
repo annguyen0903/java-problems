@@ -18,4 +18,11 @@ public class CarTest {
         //Try to clone list of objects?
         
     }
+
+    @Test
+    public void testToString(){
+        var engine = new CarEngine("V6");
+        var car = new Car("Madza", "Red", engine);
+        System.out.println(car.toString());
+    }
 }

@@ -27,4 +27,11 @@ public class Car implements Cloneable{
     public String getEngineName() {
         return this.engine.getName();
     }
+
+    @Override
+    public String toString() {
+        return "Car [model=" + model + ", color=" + color + ", engine=" + engine + "]";
+    }
+
+    
 }

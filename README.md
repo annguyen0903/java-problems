@@ -69,3 +69,5 @@ references
    *NA*
 53. Cloning objects
    *Car CarEngine CarTest*
+54. Overriding toString
+   *Car CarEngine CarTest*

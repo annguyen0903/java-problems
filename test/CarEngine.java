@@ -11,4 +11,9 @@ public class CarEngine {
     public void setName(String newName) {
         this.engineName = newName;
     }
+    @Override
+    public String toString() {
+        return "CarEngine [engineName=" + engineName + "]";
+    }
+    
 }
