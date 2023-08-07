@@ -71,3 +71,11 @@ references
    *Car CarEngine CarTest*
 54. Overriding toString
    *Car CarEngine CarTest*
+...
+
+#### Chapter 5: Arrays, Collections, and Data Structures
+
+103. Creating a stream from an array  
+   *StreamingArray*
+104. Minimum, maximum, and average of an array  
+   *MinMaxArray MinMaxArrayTest*
