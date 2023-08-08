@@ -79,3 +79,5 @@ references
    *StreamingArray*
 104. Minimum, maximum, and average of an array  
    *MinMaxArray MinMaxArrayTest*
+105. Reversing an array  
+   *ReversingArray ReversingArrayTest*
