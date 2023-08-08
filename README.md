@@ -81,3 +81,5 @@ references
    *MinMaxArray MinMaxArrayTest*
 105. Reversing an array  
    *ReversingArray ReversingArrayTest*
+108. Changing array size  
+   *DynamicArray DynamicArrayTest*
