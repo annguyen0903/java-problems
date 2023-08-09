@@ -41,7 +41,7 @@ public class ReversingArrayTest {
     }
 }
 
-class Task {
+class Task implements Cloneable{
     private int id;
     private String name;
     public Task(int id, String name) {
@@ -49,8 +49,42 @@ class Task {
         this.name = name;
     }
     @Override
+    protected Task clone() throws CloneNotSupportedException {
+        return new Task(id, name);
+    }
+    @Override
     public String toString() {
         return "Task [id=" + id + ", name=" + name + "]";
     }
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + id;
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        return result;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Task other = (Task) obj;
+        if (id != other.id)
+            return false;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        return true;
+    }
+    public void setName(String string) {
+        this.name = string;
+    }
+    
     
 }
