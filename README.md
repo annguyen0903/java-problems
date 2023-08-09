@@ -85,3 +85,5 @@ references
    *DynamicArray DynamicArrayTest*
 109. Creating unmodifiable/immutable collections  
    *ImmutableArray ImmutableArrayTest*
+114. Comparing two maps  
+   *MapComparator MapComparatorTest*

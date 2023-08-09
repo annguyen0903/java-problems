@@ -13,14 +13,16 @@ import src.NullCheckingV4;
 
 public class NullCheckingTest {
     //Test for NullCheckingV2
-    @Test(expected = NullPointerException.class)
+    @Test
     public void testV2ThrowNullPointerExp_NullColor() {
-        new NullCheckingV2("", null);
+        assertThrows(NullPointerException.class, 
+            () -> new NullCheckingV2("", null));
     }
     
-    @Test(expected = NullPointerException.class)
+    @Test
     public void testV2ThrowNullPointerExp_NullName() {
-        new NullCheckingV2(null, "");
+        assertThrows(NullPointerException.class, 
+            () -> new NullCheckingV2(null, ""));
     }
 
     @Test(expected = None.class)
