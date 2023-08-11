@@ -87,3 +87,5 @@ references
    *ImmutableArray ImmutableArrayTest*
 114. Comparing two maps  
    *MapComparator MapComparatorTest*
+115. Merging two maps  
+   *MapMerging MapMergingTest*
