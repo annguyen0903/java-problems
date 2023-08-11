@@ -89,3 +89,6 @@ references
    *MapComparator MapComparatorTest*
 115. Merging two maps  
    *MapMerging MapMergingTest*
+116. Copying HashMap  
+   *MapCopy MapCopyTest*
+
