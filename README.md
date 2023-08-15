@@ -93,4 +93,9 @@ references
    *MapCopy MapCopyTest*
 117. Sorting a Map
    *MapSorter MapSorterTest*
+120. Filtering a collection by List
+   *CollectionFilter CollectionFilterTest*  
 
+#### Chapter 8: Functional Style Programming
+166. Writing functional interfaces  
+   *Melon Banana Fruit FruitTest FruitFilter FilterPredicate*
