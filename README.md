@@ -91,4 +91,6 @@ references
    *MapMerging MapMergingTest*
 116. Copying HashMap  
    *MapCopy MapCopyTest*
+117. Sorting a Map
+   *MapSorter MapSorterTest*
 
