@@ -99,3 +99,7 @@ references
 #### Chapter 8: Functional Style Programming
 166. Writing functional interfaces  
    *Melon Banana Fruit FruitTest FruitFilter FilterPredicate*
+
+#### Chapter 9: Functional Style Programming - a Deep Dive
+177. Testing high-order functions  
+   *HighOrderFunc HighOrderFuncTest UpperCaseFunc*
