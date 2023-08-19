@@ -6,6 +6,7 @@ import static org.junit.Assert.assertTrue;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 import org.junit.Test;
@@ -33,6 +34,12 @@ public class HighOrderFuncTest {
         assertTrue(result.size() == 2);
         assertTrue(result.contains("abc"));
         assertTrue(result.contains("cda"));
+
+
+        Function<String, String> f1 = s -> s.toUpperCase();
+        Function<String, String> f2 = s -> s.concat(" DONE");
+        Function<String, String> f3 = s -> s.repeat(2);
+        Function<String, String> f = highOrderFunc.convertString(f1, f2, f3);
+        assertEquals("TEST DONETEST DONE", f.apply("test"));
     }
-    //TODO: recheck this problem
 }

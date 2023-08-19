@@ -103,3 +103,7 @@ references
 #### Chapter 9: Functional Style Programming - a Deep Dive
 177. Testing high-order functions  
    *HighOrderFunc HighOrderFuncTest UpperCaseFunc*
+178. Testing methods that use lambdas  
+   *LambdaExpTest*
+180. Filtering the non-zero elements of a stream  
+   *NonZeroFilterTest*
