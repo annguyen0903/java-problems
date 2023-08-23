@@ -107,3 +107,5 @@ references
    *LambdaExpTest*
 180. Filtering the non-zero elements of a stream  
    *NonZeroFilterTest*
+182. Mapping a stream  
+   *MappingStreamTest*
