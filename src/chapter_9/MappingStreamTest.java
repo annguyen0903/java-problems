@@ -3,12 +3,9 @@ package chapter_9;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 import org.apache.commons.lang3.stream.Streams;
 import org.junit.Test;
@@ -16,7 +13,6 @@ import org.junit.Test;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import tmp.Employee;
 
 public class MappingStreamTest {
     @Test

@@ -109,3 +109,5 @@ references
    *NonZeroFilterTest*
 182. Mapping a stream  
    *MappingStreamTest*
+183. Finding different elements in a stream  
+   *StreamFinderTest*
