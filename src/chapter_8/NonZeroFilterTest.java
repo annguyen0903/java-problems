@@ -1,4 +1,4 @@
-package src.chapter_8;
+package chapter_8;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;

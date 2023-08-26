@@ -111,3 +111,5 @@ references
    *MappingStreamTest*
 183. Finding different elements in a stream  
    *StreamFinderTest*
+185. Sum, max, and min in a stream  
+   *StreamOperationTest*

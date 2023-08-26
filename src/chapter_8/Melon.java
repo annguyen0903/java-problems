@@ -1,4 +1,4 @@
-package src.chapter_8;
+package chapter_8;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
