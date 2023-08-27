@@ -113,3 +113,5 @@ references
    *StreamFinderTest*
 185. Sum, max, and min in a stream  
    *StreamOperationTest*
+187. Joining the results of a stream  
+   *StreamJoinerTest*
