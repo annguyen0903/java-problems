@@ -115,3 +115,5 @@ references
    *StreamOperationTest*
 187. Joining the results of a stream  
    *StreamJoinerTest*
+188. Summarization collectors  
+   *StreamSummarizeTest*
